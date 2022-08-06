@@ -1,0 +1,63 @@
+body {
+  font-famil: "Quicksand", sans-serif;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 60px;
+  background-color: grey;
+}
+
+#page-logo a {
+  padding: 10px;
+  font-family: "Oleo Script", sans-serif ;
+  color: rgb(245, 243, 160);
+  font-size: 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px rgb(0,0,0);
+  background-color: yellow;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+header li {
+  margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+.prac {
+  width: 600px;
+  height: 400px;
+  background-color: green;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 80px auto;
+}
+
+.prac p {
+  width: 250px;
+  height: 100px;
+  background-color: yellow;
+  
+}
