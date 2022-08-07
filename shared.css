@@ -26,15 +26,18 @@ header {
   text-transform: uppercase;
   text-shadow: 1px 1px 2px rgb(0,0,0);
   background-color: yellow;
+  
 }
 
 header ul {
   display: flex;
   justify-content: space-around;
+  
 }
 
 header li {
   margin-left: 20px;
+  
 }
 
 
