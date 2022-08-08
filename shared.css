@@ -15,6 +15,7 @@ header {
   align-items: center;
   padding: 15px 60px;
   background-color: grey;
+  font-family: "Raleway", sans-serif;
 }
 
 #page-logo a {
@@ -31,13 +32,12 @@ header {
 
 header ul {
   display: flex;
-  justify-content: space-around;
-  
+  justify-content: space-around;  
 }
 
-header li {
+header li a{
   margin-left: 20px;
-  
+  text-decoration: none;
 }
 
 
