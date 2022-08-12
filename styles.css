@@ -48,3 +48,49 @@
 #hero-content a:hover {
   background-color: rgb(245, 154, 6);
 } 
+
+#highlights {
+  padding:24px;
+  /* 마진 겹칩 해결. */
+  background: rgb(179,231,232);
+  background: linear-gradient(0deg, rgba(179,231,232,1) 0%, rgba(201,170,241,1) 100%);
+}
+
+#highlights h2 {
+  text-align: center;
+  font-size: 40px;
+  color: rgb(59, 65, 64);
+  margin:24px 0;
+}
+
+#destinations {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 40px;
+  
+}
+
+.destination {
+  margin: 0 20px;
+  text-transform: uppercase;
+}
+
+.destination p {
+  text-align: center;
+  font-size: 24px;
+  color: rgb(124, 123, 123);
+}
+
+.destination img {
+  height: 200px;
+  width: 100%;
+  border-radius: 10px; 
+  box-shadow: 2px 4px 8px grey;
+  object-fit: cover;
+}
+
+.destination strong {
+  color: rgb(0, 160, 117);
+}
