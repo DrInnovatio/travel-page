@@ -36,3 +36,15 @@ main li img {
   text-align: right;
   text-decoration: none;
 }
+
+.actions a{
+  text-decoration: none;
+  padding: 6px;
+  color: rgb(22, 211, 228);
+  border-radius: 5px;
+}
+
+.actions a:hover {
+  background-color: rgb(235, 253, 255);
+  
+}
